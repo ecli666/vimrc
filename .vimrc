@@ -16,7 +16,7 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
-nmap <F4> :TagbarToggle<CR>
+nnoremap <leader>t :TagbarToggle<CR>
 let g:tagbar_width=40
 
 call plug#begin()
