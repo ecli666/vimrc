@@ -7,9 +7,9 @@ set shiftwidth=4
 set expandtab
 set textwidth=120
 set t_Co=256
-syntax on
 set number
 set showmatch
+syntax on
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
